@@ -88,49 +88,49 @@ const Formulario = ({ guardarNota, tusNotas }) => {
       <Text style={styles.label}>Identificación:</Text>
       <TextInput
         value={id}
-        onChangeText={(text) => setId(text)}
+        onChangeText={(text)=> setId(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Nombres:</Text>
       <TextInput
         value={nombres}
-        onChangeText={(text) => setNombres(text)}
+        onChangeText={(text)=> setNombres(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Asignatura:</Text>
       <TextInput
         value={asignatura}
-        onChangeText={(text) => setAsignatura(text)}
+        onChangeText={(text)=> setAsignatura(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Nota 1:</Text>
       <TextInput
         value={momento1}
-        onChangeText={(text) => setMomento1(text)}
+        onChangeText={(text)=> setMomento1(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Nota 2:</Text>
       <TextInput
         value={momento2}
-        onChangeText={(text) => setMomento2(text)}
+        onChangeText={(text)=> setMomento2(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Nota 3:</Text>
       <TextInput
         value={momento3}
-        onChangeText={(text) => setMomento3(text)}
+        onChangeText={(text)=> setMomento3(text)}
         style={styles.input}
       />
 
       <Text style={styles.label}>Definitiva</Text>
       <TextInput
         value={definitiva}
-        onChangeText={(text) => setDefinitiva(text)}
+        onChangeText={(text)=>setDefinitiva(text)}
         style={styles.input}
         editable={false} // Para que no sea editable
       />
@@ -145,15 +145,15 @@ const Formulario = ({ guardarNota, tusNotas }) => {
 
       <Button title="Calcular" onPress={calcularDefinitiva} />
 
-      <View style={{ marginVertical: 10 }} />
+      <View style={{marginVertical:10}} />
 
       <Button title="Guardar Nota" onPress={guardarNotaHandler} style={styles.guardarButton} />
 
-      <View style={{ marginVertical: 10 }} />
+      <View style={{marginVertical:10}}/>
 
       <Button title="Limpiar" onPress={limpiarCampos} style={styles.limpiarButton} />
 
-      <View style={{ marginVertical: 10 }} />
+      <View style={{marginVertical:10}}/>
 
       <Button title="Buscar" onPress={buscarNota} style={styles.buscarButton} />
 
