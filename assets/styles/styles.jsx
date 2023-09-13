@@ -10,12 +10,13 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    borderColor: 'gray',
+    borderColor: 'black',
     borderWidth: 1,
     marginBottom: 10,
     paddingHorizontal: 10,
     fontSize: 16,
-  },
+    color:'black'
+    },
   guardarButton: {
     backgroundColor: "orange",
     color: "white",
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: 'blue',
+    backgroundColor: 'green',
     color: 'white',
     padding: 10,
     borderRadius: 5,
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     fontSize: 18,
     textAlign: 'center',
-    marginTop: 10, // Espacio superior para separar el botón "Limpiar" de los demás
+    marginTop:10 // Espacio superior para separar el botón "Limpiar" de los demás
   },
   buscarButton: {
     backgroundColor: 'green', // Cambia el color según tu preferencia
@@ -54,11 +55,11 @@ const styles = StyleSheet.create({
   },
   errorText: {
     color: 'red',
-    fontSize: 16,
+    fontSize: 18,
   },
   successText: {
     color: 'green',
-    fontSize: 16,
+    fontSize: 18,
   },
 });
 

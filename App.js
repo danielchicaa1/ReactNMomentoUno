@@ -6,7 +6,7 @@ const initialNotes = [
   {
     id: "1",
     nombres: "Juan",
-    asignatura: "Matemáticas",
+    asignatura: "matematicas",
     momento1: "4.5",
     momento2: "3.5",
     momento3: "4.0",
@@ -15,13 +15,13 @@ const initialNotes = [
   },
   {
     id: "2",
-    nombres: "María",
-    asignatura: "Ciencias",
+    nombres: "Maria",
+    asignatura: "ciencias",
     momento1: "3.0",
     momento2: "3.5",
     momento3: "3.8",
     definitiva: "3.4",
-    observacion: "El estudiante habilita",
+    observacion: "El estudiante habilita todo",
   },
   // Agrega más notas si es necesario
 ];
@@ -39,7 +39,7 @@ const App = () => {
     <View style={styles.container}>
       <View style={styles.content}>
         <Text style={styles.appTitle}>Aplicativo Notas</Text>
-        {/* Coloca el componente Formulario aquí, después de definir tusNotas */}
+        {/* //componente Formulario aquí, después de definir tusNotas// */}
         <Formulario guardarNota={guardarNota} tusNotas={tusNotas}/>
       </View>
     </View>
@@ -49,13 +49,13 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: 'gray',
     justifyContent: 'center',
     alignItems: 'center',
   },
   
   content: {
-    width: '80%', // Ancho del contenido (ajusta según tu preferencia)
+    width: '80%', // Ancho del contenido 
   },
   appTitle: {
     fontSize: 24,
